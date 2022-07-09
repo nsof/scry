@@ -1,0 +1,13 @@
+
+scry - name of project
+orb - a view into a specific area in the current (html) document
+
+todo
+
+1. allow selection of orb using right click and 'select element' or 'select area' (allow user to select rectangular region on screen)
+a. the selection will start floating
+b. might require this to be a plugin for the right click
+
+2. allow the selected region to be moved on screen and be closed (treat it like a window)
+
+
