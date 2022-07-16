@@ -1,11 +1,25 @@
 
+#orbframe {
+    width: 400px;
+    height: 200px;
+    position: absolute;    
+    overflow: hidden;
+    border: 2px solid red;
+    z-index: 9;
+    background-color: #fff;
+}
+
+#orbframeheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
 .orb {
-    width: fit-content;
-    z-index: 99;
-    opacity: 80%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    background-color: green;
-    border: 2px solid #4CAF50;
+    width: 800px;
+    height: 400px;
+    margin-left: -140px;
+    margin-top: -40px;
 }
