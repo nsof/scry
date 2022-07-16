@@ -1,9 +1,6 @@
 
 #orbframe {
-    width: 400px;
-    height: 200px;
     position: absolute;    
-    overflow: hidden;
     border: 2px solid red;
     z-index: 9;
     background-color: #fff;
@@ -15,11 +12,18 @@
     z-index: 10;
     background-color: #2196F3;
     color: #fff;
+    text-align: center;
+}
+
+#orbplaceholder {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .orb {
     width: 800px;
-    height: 400px;
+    height: 2000px;
     margin-left: -140px;
-    margin-top: -40px;
+    margin-top: -300px;
 }
